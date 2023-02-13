@@ -18,9 +18,13 @@ namespace Aula02{
              
             Guardar o carctarer unitário 
               char = 'V'
-             */
 
             
+             */
+
+            int min = int.MinValue;
+            decimal max = decimal.MaxValue;
+            Console.WriteLine(max);
         }
     }
 }

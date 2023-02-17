@@ -13,7 +13,6 @@ namespace Aula22.Entities
         public List<Comment> Comments { get; set; } = new List<Comment>();
 
         public Post() { }
-
         public Post(DateTime moment, string title, string content, int likes)
         {
             Moment = moment;
@@ -22,6 +21,13 @@ namespace Aula22.Entities
             Likes = likes;
         }
 
+        /// <summary>
+        /// Adicionar comentário
+        /// </summary>
+        /// <remarks>
+        ///     Adiciona o objeto da classe Comment na list comment
+        /// </remarks>
+        /// <param name="comment">Objeto da classe Comment</param>
         public void AddComment(Comment comment)
         {
             Comments.Add(comment);

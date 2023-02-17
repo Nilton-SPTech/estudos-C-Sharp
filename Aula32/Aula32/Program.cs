@@ -14,7 +14,7 @@ namespace Aula32
 
              //O CONTAINS FUNCIONA COMO UM GetHashCode + Equals
              //ELE PERCORRE TODO O CONJUNTO 
-             //E VALIDA AS COMPARAÇÕES
+             //E VALIDA SE HÁ COMPARAÇÕES
              Console.WriteLine(set.Contains("Maria"));
             */
 
@@ -34,7 +34,7 @@ namespace Aula32
             //ESSA PESQUISA / VALIDAÇÃO É FEITA PELA REFÊRENCIA DE MEMÓRIA
 
             //(Depois de manipular o override do Equals e GetHashCode) = DEVOLVE true
-            //O QUE ANTE A VALIDAÇÃO ERA FEITA SOMENTE PELO ESPAÇO DE MEMÓRIA DOS OBJETOS
+            //O QUE ANTES A VALIDAÇÃO ERA FEITA SOMENTE PELO ESPAÇO DE MEMÓRIA DOS OBJETOS
             //AGORA É FEITA PELOS VALORE QUE ESTÃO NESSES OBJS
             //DESCONSIDERANDO SE É UM CONJUNTO OU SOMENTE UMA INSTANCIA
             Console.WriteLine(a.Contains(prod));
